@@ -1,0 +1,58 @@
+/* Style for the tooltip */
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            margin-right: -4px;
+        }
+
+        /* Style for the tooltip trigger text */
+        .tooltip > span {
+            background-color: #FFCC99; /* Light orange background color */
+            color: #333; /* Dark text color for contrast */
+            padding: 0px; /* Add padding to make the background more prominent */
+            border-radius: 0px; /* Optional: Adds rounded corners to the background */
+        }
+
+        /* Style for the tooltip content */
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 280px; /* Increased width */
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 10px; /* Add horizontal padding if needed */
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -140px; /* Adjusted to half of the new width to keep it centered */
+            opacity: 0;
+            transition: opacity 0.3s;
+            white-space: pre-wrap;
+            overflow: hidden; /* Ensures the content does not spill outside the tooltip */
+        }
+
+        /* Show the tooltip content when hovering over the tooltip */
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        /* Style for the tooltip trigger text with the default color */
+        .tooltip > span.default-color {
+            background-color: #FFCC99; /* Light orange background color */
+            color: #333; /* Dark text color for contrast */
+            padding: 0px;
+            border-radius: 0px;
+        }
+
+        /* Style for the tooltip trigger text with white color */
+        .tooltip > span.white-color {
+            background-color: #FFFFFF; /* White background color */
+            color: #333; /* Dark text color for contrast */
+            padding: 0px;
+            border-radius: 0px;
+        }
+        
