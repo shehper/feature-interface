@@ -1,0 +1,4473 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="tooltip.css">
+        <style>
+        body {
+            text-align: center; /* Center content */
+        }
+        .content-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Adjust this as needed */
+            margin-top: 20px; /* Adjust space from the top */
+        }
+        .image-container {
+            flex: 1; /* Adjust as needed */
+            text-align: center; /* Center image */
+        }
+        .text-container {
+            flex: 1; /* Adjust as needed */
+            text-align: left; /* Align text to the left */
+            padding-left: 20px; /* Space between image and text */
+        }
+    </style>
+    </head>
+    <body>
+    <br><br>
+    <div class="content-container">
+        <div class="image-container">
+            <img src="../histograms/1750.png" alt="Feature Activations Histogram">
+        </div><div class="text-container">
+        <h2 style="color:blue;">Neuron # 1750</h2> 
+    <h3>  Top Activations </h3> 
+                        
+    <h3>  Max Activation = 1.5708 </h3>
+    
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;grocery </span> 
+            <span class="tooltiptext"> 
+                Token:  grocery
+                Activation: 0.5742 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;shopping </span> 
+            <span class="tooltiptext"> 
+                Token:  shopping
+                Activation: 0.3354 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ? </span> 
+            <span class="tooltiptext"> 
+                Token: ?
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;No </span> 
+            <span class="tooltiptext"> 
+                Token:  No
+                Activation: 0.0560 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;problem </span> 
+            <span class="tooltiptext"> 
+                Token:  problem
+                Activation: 1.5708 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ! </span> 
+            <span class="tooltiptext"> 
+                Token: !
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;You </span> 
+            <span class="tooltiptext"> 
+                Token:  You
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;can </span> 
+            <span class="tooltiptext"> 
+                Token:  can
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;transport </span> 
+            <span class="tooltiptext"> 
+                Token:  transport
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;try </span> 
+            <span class="tooltiptext"> 
+                Token:  try
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;this </span> 
+            <span class="tooltiptext"> 
+                Token:  this
+                Activation: 0.0267 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ! </span> 
+            <span class="tooltiptext"> 
+                Token: !
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;Check </span> 
+            <span class="tooltiptext"> 
+                Token:  Check
+                Activation: 0.1522 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;out </span> 
+            <span class="tooltiptext"> 
+                Token:  out
+                Activation: 1.4716 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;our </span> 
+            <span class="tooltiptext"> 
+                Token:  our
+                Activation: 0.4332 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;interpretation </span> 
+            <span class="tooltiptext"> 
+                Token:  interpretation
+                Activation: 0.2768 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;of </span> 
+            <span class="tooltiptext"> 
+                Token:  of
+                Activation: 0.0089 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Grand </span> 
+            <span class="tooltiptext"> 
+                Token:  Grand
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;job </span> 
+            <span class="tooltiptext"> 
+                Token:  job
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Check </span> 
+            <span class="tooltiptext"> 
+                Token:  Check
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;out </span> 
+            <span class="tooltiptext"> 
+                Token:  out
+                Activation: 1.4355 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;this </span> 
+            <span class="tooltiptext"> 
+                Token:  this
+                Activation: 0.7271 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;example </span> 
+            <span class="tooltiptext"> 
+                Token:  example
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;I </span> 
+            <span class="tooltiptext"> 
+                Token:  I
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;made </span> 
+            <span class="tooltiptext"> 
+                Token:  made
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;verdict </span> 
+            <span class="tooltiptext"> 
+                Token:  verdict
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> : </span> 
+            <span class="tooltiptext"> 
+                Token: :
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Never </span> 
+            <span class="tooltiptext"> 
+                Token:  Never
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;order </span> 
+            <span class="tooltiptext"> 
+                Token:  order
+                Activation: 1.4091 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;from </span> 
+            <span class="tooltiptext"> 
+                Token:  from
+                Activation: 0.0675 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;B </span> 
+            <span class="tooltiptext"> 
+                Token:  B
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> atch </span> 
+            <span class="tooltiptext"> 
+                Token: atch
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> PC </span> 
+            <span class="tooltiptext"> 
+                Token: PC
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;you </span> 
+            <span class="tooltiptext"> 
+                Token:  you
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;waiting </span> 
+            <span class="tooltiptext"> 
+                Token:  waiting
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ? </span> 
+            <span class="tooltiptext"> 
+                Token: ?
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Check </span> 
+            <span class="tooltiptext"> 
+                Token:  Check
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;out </span> 
+            <span class="tooltiptext"> 
+                Token:  out
+                Activation: 1.3981 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.1655 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;workout </span> 
+            <span class="tooltiptext"> 
+                Token:  workout
+                Activation: 0.2208 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;videos </span> 
+            <span class="tooltiptext"> 
+                Token:  videos
+                Activation: 0.6391 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;for </span> 
+            <span class="tooltiptext"> 
+                Token:  for
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> - </span> 
+            <span class="tooltiptext"> 
+                Token: -
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> looking </span> 
+            <span class="tooltiptext"> 
+                Token: looking
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Check </span> 
+            <span class="tooltiptext"> 
+                Token:  Check
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;out </span> 
+            <span class="tooltiptext"> 
+                Token:  out
+                Activation: 1.3858 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;our </span> 
+            <span class="tooltiptext"> 
+                Token:  our
+                Activation: 0.3958 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;glass </span> 
+            <span class="tooltiptext"> 
+                Token:  glass
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ware </span> 
+            <span class="tooltiptext"> 
+                Token: ware
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;guide </span> 
+            <span class="tooltiptext"> 
+                Token:  guide
+                Activation: 0.0114 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> Check </span> 
+            <span class="tooltiptext"> 
+                Token: Check
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;out </span> 
+            <span class="tooltiptext"> 
+                Token:  out
+                Activation: 1.3775 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;our </span> 
+            <span class="tooltiptext"> 
+                Token:  our
+                Activation: 0.6475 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;other </span> 
+            <span class="tooltiptext"> 
+                Token:  other
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;ch </span> 
+            <span class="tooltiptext"> 
+                Token:  ch
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ist </span> 
+            <span class="tooltiptext"> 
+                Token: ist
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> Book </span> 
+            <span class="tooltiptext"> 
+                Token: Book
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;Drop </span> 
+            <span class="tooltiptext"> 
+                Token:  Drop
+                Activation: 0.0508 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> : </span> 
+            <span class="tooltiptext"> 
+                Token: :
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;Give </span> 
+            <span class="tooltiptext"> 
+                Token:  Give
+                Activation: 0.0466 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;back </span> 
+            <span class="tooltiptext"> 
+                Token:  back
+                Activation: 1.3608 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;to </span> 
+            <span class="tooltiptext"> 
+                Token:  to
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0961 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;troops </span> 
+            <span class="tooltiptext"> 
+                Token:  troops
+                Activation: 1.0579 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;by </span> 
+            <span class="tooltiptext"> 
+                Token:  by
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;up </span> 
+            <span class="tooltiptext"> 
+                Token:  up
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;• </span> 
+            <span class="tooltiptext"> 
+                Token:  •
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;Giving </span> 
+            <span class="tooltiptext"> 
+                Token:  Giving
+                Activation: 0.1040 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;all </span> 
+            <span class="tooltiptext"> 
+                Token:  all
+                Activation: 0.9749 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;children </span> 
+            <span class="tooltiptext"> 
+                Token:  children
+                Activation: 1.3358 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;leaving </span> 
+            <span class="tooltiptext"> 
+                Token:  leaving
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;care </span> 
+            <span class="tooltiptext"> 
+                Token:  care
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;personal </span> 
+            <span class="tooltiptext"> 
+                Token:  personal
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> ine </span> 
+            <span class="tooltiptext"> 
+                Token: ine
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;programming </span> 
+            <span class="tooltiptext"> 
+                Token:  programming
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Check </span> 
+            <span class="tooltiptext"> 
+                Token:  Check
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;out </span> 
+            <span class="tooltiptext"> 
+                Token:  out
+                Activation: 1.3305 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;sprite </span> 
+            <span class="tooltiptext"> 
+                Token:  sprite
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;movements </span> 
+            <span class="tooltiptext"> 
+                Token:  movements
+                Activation: 0.1529 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;in </span> 
+            <span class="tooltiptext"> 
+                Token:  in
+                Activation: 0.0000 
+            </span>
+        </div><br><h3>  Subsample Interval 0 </h3> 
+    <h3>  Max Activation = 0.8914 </h3>
+    
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;fair </span> 
+            <span class="tooltiptext"> 
+                Token:  fair
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;price </span> 
+            <span class="tooltiptext"> 
+                Token:  price
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Throw </span> 
+            <span class="tooltiptext"> 
+                Token:  Throw
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.8914 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;number </span> 
+            <span class="tooltiptext"> 
+                Token:  number
+                Activation: 0.2184 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;at </span> 
+            <span class="tooltiptext"> 
+                Token:  at
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;me </span> 
+            <span class="tooltiptext"> 
+                Token:  me
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;and </span> 
+            <span class="tooltiptext"> 
+                Token:  and
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;change </span> 
+            <span class="tooltiptext"> 
+                Token:  change
+                Activation: 0.1941 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;sex </span> 
+            <span class="tooltiptext"> 
+                Token:  sex
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Respect </span> 
+            <span class="tooltiptext"> 
+                Token:  Respect
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;all </span> 
+            <span class="tooltiptext"> 
+                Token:  all
+                Activation: 0.7514 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> A </span> 
+            <span class="tooltiptext"> 
+                Token: A
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Isn </span> 
+            <span class="tooltiptext"> 
+                Token:  Isn
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> � </span> 
+            <span class="tooltiptext"> 
+                Token: �
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> � </span> 
+            <span class="tooltiptext"> 
+                Token: �
+                Activation: 0.2927 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> t </span> 
+            <span class="tooltiptext"> 
+                Token: t
+                Activation: 0.3830 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.6808 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;he </span> 
+            <span class="tooltiptext"> 
+                Token:  he
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ctic </span> 
+            <span class="tooltiptext"> 
+                Token: ctic
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;work </span> 
+            <span class="tooltiptext"> 
+                Token:  work
+                Activation: 0.0976 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;schedule </span> 
+            <span class="tooltiptext"> 
+                Token:  schedule
+                Activation: 0.1095 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;process </span> 
+            <span class="tooltiptext"> 
+                Token:  process
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Not </span> 
+            <span class="tooltiptext"> 
+                Token:  Not
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;only </span> 
+            <span class="tooltiptext"> 
+                Token:  only
+                Activation: 0.7498 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;do </span> 
+            <span class="tooltiptext"> 
+                Token:  do
+                Activation: 0.5987 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;you </span> 
+            <span class="tooltiptext"> 
+                Token:  you
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;have </span> 
+            <span class="tooltiptext"> 
+                Token:  have
+                Activation: 0.2278 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;to </span> 
+            <span class="tooltiptext"> 
+                Token:  to
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;link </span> 
+            <span class="tooltiptext"> 
+                Token:  link
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;same </span> 
+            <span class="tooltiptext"> 
+                Token:  same
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;direction </span> 
+            <span class="tooltiptext"> 
+                Token:  direction
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Is </span> 
+            <span class="tooltiptext"> 
+                Token:  Is
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;this </span> 
+            <span class="tooltiptext"> 
+                Token:  this
+                Activation: 0.5224 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;good </span> 
+            <span class="tooltiptext"> 
+                Token:  good
+                Activation: 0.5438 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ? </span> 
+            <span class="tooltiptext"> 
+                Token: ?
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;I </span> 
+            <span class="tooltiptext"> 
+                Token:  I
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;think </span> 
+            <span class="tooltiptext"> 
+                Token:  think
+                Activation: 0.0000 
+            </span>
+        </div><br><h3>  Subsample Interval 1 </h3> 
+    <h3>  Max Activation = 0.4632 </h3>
+    
+        <div class="tooltip"> 
+            <span class="white-color"> : </span> 
+            <span class="tooltiptext"> 
+                Token: :
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> Fast </span> 
+            <span class="tooltiptext"> 
+                Token: Fast
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;forward </span> 
+            <span class="tooltiptext"> 
+                Token:  forward
+                Activation: 0.4632 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;dozen </span> 
+            <span class="tooltiptext"> 
+                Token:  dozen
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;years </span> 
+            <span class="tooltiptext"> 
+                Token:  years
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> , </span> 
+            <span class="tooltiptext"> 
+                Token: ,
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> If </span> 
+            <span class="tooltiptext"> 
+                Token: If
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;this </span> 
+            <span class="tooltiptext"> 
+                Token:  this
+                Activation: 0.1484 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;list </span> 
+            <span class="tooltiptext"> 
+                Token:  list
+                Activation: 0.4135 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;were </span> 
+            <span class="tooltiptext"> 
+                Token:  were
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;based </span> 
+            <span class="tooltiptext"> 
+                Token:  based
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;on </span> 
+            <span class="tooltiptext"> 
+                Token:  on
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;We </span> 
+            <span class="tooltiptext"> 
+                Token:  We
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> � </span> 
+            <span class="tooltiptext"> 
+                Token: �
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> � </span> 
+            <span class="tooltiptext"> 
+                Token: �
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> re </span> 
+            <span class="tooltiptext"> 
+                Token: re
+                Activation: 0.1662 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;building </span> 
+            <span class="tooltiptext"> 
+                Token:  building
+                Activation: 0.4047 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;technology </span> 
+            <span class="tooltiptext"> 
+                Token:  technology
+                Activation: 0.0302 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;that </span> 
+            <span class="tooltiptext"> 
+                Token:  that
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;can </span> 
+            <span class="tooltiptext"> 
+                Token:  can
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;analyze </span> 
+            <span class="tooltiptext"> 
+                Token:  analyze
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;his </span> 
+            <span class="tooltiptext"> 
+                Token:  his
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;mouth </span> 
+            <span class="tooltiptext"> 
+                Token:  mouth
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Was </span> 
+            <span class="tooltiptext"> 
+                Token:  Was
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;this </span> 
+            <span class="tooltiptext"> 
+                Token:  this
+                Activation: 0.3616 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;kid </span> 
+            <span class="tooltiptext"> 
+                Token:  kid
+                Activation: 0.1258 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;chewing </span> 
+            <span class="tooltiptext"> 
+                Token:  chewing
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;tobacco </span> 
+            <span class="tooltiptext"> 
+                Token:  tobacco
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ? </span> 
+            <span class="tooltiptext"> 
+                Token: ?
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> V </span> 
+            <span class="tooltiptext"> 
+                Token: V
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> irt </span> 
+            <span class="tooltiptext"> 
+                Token: irt
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> ually </span> 
+            <span class="tooltiptext"> 
+                Token: ually
+                Activation: 0.3500 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;all </span> 
+            <span class="tooltiptext"> 
+                Token:  all
+                Activation: 0.2487 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;female </span> 
+            <span class="tooltiptext"> 
+                Token:  female
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;bon </span> 
+            <span class="tooltiptext"> 
+                Token:  bon
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> obos </span> 
+            <span class="tooltiptext"> 
+                Token: obos
+                Activation: 0.0000 
+            </span>
+        </div><br><h3>  Subsample Interval 2 </h3> 
+    <h3>  Max Activation = 0.3277 </h3>
+    
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Red </span> 
+            <span class="tooltiptext"> 
+                Token:  Red
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> - </span> 
+            <span class="tooltiptext"> 
+                Token: -
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> Head </span> 
+            <span class="tooltiptext"> 
+                Token: Head
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> ed </span> 
+            <span class="tooltiptext"> 
+                Token: ed
+                Activation: 0.3277 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Woman </span> 
+            <span class="tooltiptext"> 
+                Token:  Woman
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;was </span> 
+            <span class="tooltiptext"> 
+                Token:  was
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;such </span> 
+            <span class="tooltiptext"> 
+                Token:  such
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> TION </span> 
+            <span class="tooltiptext"> 
+                Token: TION
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;All </span> 
+            <span class="tooltiptext"> 
+                Token:  All
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> ent </span> 
+            <span class="tooltiptext"> 
+                Token: ent
+                Activation: 0.2323 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> own </span> 
+            <span class="tooltiptext"> 
+                Token: own
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;firefighters </span> 
+            <span class="tooltiptext"> 
+                Token:  firefighters
+                Activation: 0.2914 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;were </span> 
+            <span class="tooltiptext"> 
+                Token:  were
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;still </span> 
+            <span class="tooltiptext"> 
+                Token:  still
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;battling </span> 
+            <span class="tooltiptext"> 
+                Token:  battling
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;me </span> 
+            <span class="tooltiptext"> 
+                Token:  me
+                Activation: 0.3570 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;know </span> 
+            <span class="tooltiptext"> 
+                Token:  know
+                Activation: 0.9239 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;how </span> 
+            <span class="tooltiptext"> 
+                Token:  how
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;Bitcoin </span> 
+            <span class="tooltiptext"> 
+                Token:  Bitcoin
+                Activation: 0.2840 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> ica </span> 
+            <span class="tooltiptext"> 
+                Token: ica
+                Activation: 0.1132 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;lawsuit </span> 
+            <span class="tooltiptext"> 
+                Token:  lawsuit
+                Activation: 0.2858 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;goes </span> 
+            <span class="tooltiptext"> 
+                Token:  goes
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;too </span> 
+            <span class="tooltiptext"> 
+                Token:  too
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;You </span> 
+            <span class="tooltiptext"> 
+                Token:  You
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;check </span> 
+            <span class="tooltiptext"> 
+                Token:  check
+                Activation: 0.4515 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;out </span> 
+            <span class="tooltiptext"> 
+                Token:  out
+                Activation: 1.0513 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;master </span> 
+            <span class="tooltiptext"> 
+                Token:  master
+                Activation: 0.2817 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> , </span> 
+            <span class="tooltiptext"> 
+                Token: ,
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;build </span> 
+            <span class="tooltiptext"> 
+                Token:  build
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;your </span> 
+            <span class="tooltiptext"> 
+                Token:  your
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;feature </span> 
+            <span class="tooltiptext"> 
+                Token:  feature
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Please </span> 
+            <span class="tooltiptext"> 
+                Token:  Please
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;remember </span> 
+            <span class="tooltiptext"> 
+                Token:  remember
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Boards </span> 
+            <span class="tooltiptext"> 
+                Token:  Boards
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;rules </span> 
+            <span class="tooltiptext"> 
+                Token:  rules
+                Activation: 0.2747 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;on </span> 
+            <span class="tooltiptext"> 
+                Token:  on
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;naming </span> 
+            <span class="tooltiptext"> 
+                Token:  naming
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;and </span> 
+            <span class="tooltiptext"> 
+                Token:  and
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;shaming </span> 
+            <span class="tooltiptext"> 
+                Token:  shaming
+                Activation: 0.0000 
+            </span>
+        </div><br><h3>  Subsample Interval 3 </h3> 
+    <h3>  Max Activation = 0.2582 </h3>
+    
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;East </span> 
+            <span class="tooltiptext"> 
+                Token:  East
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Transcript </span> 
+            <span class="tooltiptext"> 
+                Token:  Transcript
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;[ </span> 
+            <span class="tooltiptext"> 
+                Token:  [
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> Deep </span> 
+            <span class="tooltiptext"> 
+                Token: Deep
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;below </span> 
+            <span class="tooltiptext"> 
+                Token:  below
+                Activation: 0.2582 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;surface </span> 
+            <span class="tooltiptext"> 
+                Token:  surface
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> , </span> 
+            <span class="tooltiptext"> 
+                Token: ,
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Re </span> 
+            <span class="tooltiptext"> 
+                Token:  Re
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> : </span> 
+            <span class="tooltiptext"> 
+                Token: :
+                Activation: 0.0581 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;Getting </span> 
+            <span class="tooltiptext"> 
+                Token:  Getting
+                Activation: 0.0813 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;interrupt </span> 
+            <span class="tooltiptext"> 
+                Token:  interrupt
+                Activation: 0.6914 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;every </span> 
+            <span class="tooltiptext"> 
+                Token:  every
+                Activation: 0.2436 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;million </span> 
+            <span class="tooltiptext"> 
+                Token:  million
+                Activation: 0.4665 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;cache </span> 
+            <span class="tooltiptext"> 
+                Token:  cache
+                Activation: 0.1508 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;misses </span> 
+            <span class="tooltiptext"> 
+                Token:  misses
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;On </span> 
+            <span class="tooltiptext"> 
+                Token:  On
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;ce </span> 
+            <span class="tooltiptext"> 
+                Token:  ce
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> as </span> 
+            <span class="tooltiptext"> 
+                Token: as
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> eless </span> 
+            <span class="tooltiptext"> 
+                Token: eless
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;need </span> 
+            <span class="tooltiptext"> 
+                Token:  need
+                Activation: 0.2396 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;to </span> 
+            <span class="tooltiptext"> 
+                Token:  to
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;entertain </span> 
+            <span class="tooltiptext"> 
+                Token:  entertain
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;When </span> 
+            <span class="tooltiptext"> 
+                Token:  When
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> Not </span> 
+            <span class="tooltiptext"> 
+                Token: Not
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;only </span> 
+            <span class="tooltiptext"> 
+                Token:  only
+                Activation: 0.2389 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;did </span> 
+            <span class="tooltiptext"> 
+                Token:  did
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;United </span> 
+            <span class="tooltiptext"> 
+                Token:  United
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;States </span> 
+            <span class="tooltiptext"> 
+                Token:  States
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> ? </span> 
+            <span class="tooltiptext"> 
+                Token: ?
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Let </span> 
+            <span class="tooltiptext"> 
+                Token:  Let
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> 's </span> 
+            <span class="tooltiptext"> 
+                Token: 's
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;break </span> 
+            <span class="tooltiptext"> 
+                Token:  break
+                Activation: 0.6177 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;it </span> 
+            <span class="tooltiptext"> 
+                Token:  it
+                Activation: 0.2249 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;down </span> 
+            <span class="tooltiptext"> 
+                Token:  down
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;with </span> 
+            <span class="tooltiptext"> 
+                Token:  with
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Public </span> 
+            <span class="tooltiptext"> 
+                Token:  Public
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Policy </span> 
+            <span class="tooltiptext"> 
+                Token:  Policy
+                Activation: 0.0000 
+            </span>
+        </div><br><h3>  Subsample Interval 4 </h3> 
+    <h3>  Max Activation = 0.2079 </h3>
+    
+        <div class="tooltip"> 
+            <span class="white-color"> T </span> 
+            <span class="tooltiptext"> 
+                Token: T
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> iy </span> 
+            <span class="tooltiptext"> 
+                Token: iy
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> uri </span> 
+            <span class="tooltiptext"> 
+                Token: uri
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> > </span> 
+            <span class="tooltiptext"> 
+                Token: >
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;all </span> 
+            <span class="tooltiptext"> 
+                Token:  all
+                Activation: 0.2079 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;i </span> 
+            <span class="tooltiptext"> 
+                Token:  i
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;do </span> 
+            <span class="tooltiptext"> 
+                Token:  do
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;is </span> 
+            <span class="tooltiptext"> 
+                Token:  is
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;add </span> 
+            <span class="tooltiptext"> 
+                Token:  add
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;162 </span> 
+            <span class="tooltiptext"> 
+                Token:  162
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Posts </span> 
+            <span class="tooltiptext"> 
+                Token:  Posts
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;# </span> 
+            <span class="tooltiptext"> 
+                Token:  #
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> 12 </span> 
+            <span class="tooltiptext"> 
+                Token: 12
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;great </span> 
+            <span class="tooltiptext"> 
+                Token:  great
+                Activation: 0.1962 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;thread </span> 
+            <span class="tooltiptext"> 
+                Token:  thread
+                Activation: 0.1698 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> , </span> 
+            <span class="tooltiptext"> 
+                Token: ,
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;do </span> 
+            <span class="tooltiptext"> 
+                Token:  do
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;keep </span> 
+            <span class="tooltiptext"> 
+                Token:  keep
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> B </span> 
+            <span class="tooltiptext"> 
+                Token: B
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> obby </span> 
+            <span class="tooltiptext"> 
+                Token: obby
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Fischer </span> 
+            <span class="tooltiptext"> 
+                Token:  Fischer
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> : </span> 
+            <span class="tooltiptext"> 
+                Token: :
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;OK </span> 
+            <span class="tooltiptext"> 
+                Token:  OK
+                Activation: 0.1956 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> , </span> 
+            <span class="tooltiptext"> 
+                Token: ,
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;take </span> 
+            <span class="tooltiptext"> 
+                Token:  take
+                Activation: 0.0516 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;it </span> 
+            <span class="tooltiptext"> 
+                Token:  it
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;easy </span> 
+            <span class="tooltiptext"> 
+                Token:  easy
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> � </span> 
+            <span class="tooltiptext"> 
+                Token: �
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> � </span> 
+            <span class="tooltiptext"> 
+                Token: �
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;According </span> 
+            <span class="tooltiptext"> 
+                Token:  According
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;to </span> 
+            <span class="tooltiptext"> 
+                Token:  to
+                Activation: 0.1913 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;this </span> 
+            <span class="tooltiptext"> 
+                Token:  this
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;approach </span> 
+            <span class="tooltiptext"> 
+                Token:  approach
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> , </span> 
+            <span class="tooltiptext"> 
+                Token: ,
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;these </span> 
+            <span class="tooltiptext"> 
+                Token:  these
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;of </span> 
+            <span class="tooltiptext"> 
+                Token:  of
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;voice </span> 
+            <span class="tooltiptext"> 
+                Token:  voice
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ? </span> 
+            <span class="tooltiptext"> 
+                Token: ?
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Their </span> 
+            <span class="tooltiptext"> 
+                Token:  Their
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;body </span> 
+            <span class="tooltiptext"> 
+                Token:  body
+                Activation: 0.1768 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;language </span> 
+            <span class="tooltiptext"> 
+                Token:  language
+                Activation: 0.0967 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ? </span> 
+            <span class="tooltiptext"> 
+                Token: ?
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;How </span> 
+            <span class="tooltiptext"> 
+                Token:  How
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;do </span> 
+            <span class="tooltiptext"> 
+                Token:  do
+                Activation: 0.0000 
+            </span>
+        </div><br><h3>  Subsample Interval 5 </h3> 
+    <h3>  Max Activation = 0.1636 </h3>
+    
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;ice </span> 
+            <span class="tooltiptext"> 
+                Token:  ice
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ! </span> 
+            <span class="tooltiptext"> 
+                Token: !
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Hold </span> 
+            <span class="tooltiptext"> 
+                Token:  Hold
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;your </span> 
+            <span class="tooltiptext"> 
+                Token:  your
+                Activation: 0.7712 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;glass </span> 
+            <span class="tooltiptext"> 
+                Token:  glass
+                Activation: 0.1636 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;up </span> 
+            <span class="tooltiptext"> 
+                Token:  up
+                Activation: 0.8646 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;to </span> 
+            <span class="tooltiptext"> 
+                Token:  to
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;light </span> 
+            <span class="tooltiptext"> 
+                Token:  light
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> Your </span> 
+            <span class="tooltiptext"> 
+                Token: Your
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;monetary </span> 
+            <span class="tooltiptext"> 
+                Token:  monetary
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;support </span> 
+            <span class="tooltiptext"> 
+                Token:  support
+                Activation: 0.1589 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;will </span> 
+            <span class="tooltiptext"> 
+                Token:  will
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;help </span> 
+            <span class="tooltiptext"> 
+                Token:  help
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;many </span> 
+            <span class="tooltiptext"> 
+                Token:  many
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;: </span> 
+            <span class="tooltiptext"> 
+                Token:  :
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Charge </span> 
+            <span class="tooltiptext"> 
+                Token:  Charge
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.2217 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;punch </span> 
+            <span class="tooltiptext"> 
+                Token:  punch
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;powerful </span> 
+            <span class="tooltiptext"> 
+                Token:  powerful
+                Activation: 0.1576 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;enough </span> 
+            <span class="tooltiptext"> 
+                Token:  enough
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;to </span> 
+            <span class="tooltiptext"> 
+                Token:  to
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;wipe </span> 
+            <span class="tooltiptext"> 
+                Token:  wipe
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;out </span> 
+            <span class="tooltiptext"> 
+                Token:  out
+                Activation: 0.6035 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.3454 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;condom </span> 
+            <span class="tooltiptext"> 
+                Token:  condom
+                Activation: 0.0086 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;But </span> 
+            <span class="tooltiptext"> 
+                Token:  But
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;most </span> 
+            <span class="tooltiptext"> 
+                Token:  most
+                Activation: 0.1445 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;of </span> 
+            <span class="tooltiptext"> 
+                Token:  of
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;all </span> 
+            <span class="tooltiptext"> 
+                Token:  all
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;use </span> 
+            <span class="tooltiptext"> 
+                Token:  use
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;strawberries </span> 
+            <span class="tooltiptext"> 
+                Token:  strawberries
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;nude </span> 
+            <span class="tooltiptext"> 
+                Token:  nude
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Du </span> 
+            <span class="tooltiptext"> 
+                Token:  Du
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> ress </span> 
+            <span class="tooltiptext"> 
+                Token: ress
+                Activation: 0.1433 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;is </span> 
+            <span class="tooltiptext"> 
+                Token:  is
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;perfectly </span> 
+            <span class="tooltiptext"> 
+                Token:  perfectly
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;reasonable </span> 
+            <span class="tooltiptext"> 
+                Token:  reasonable
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;when </span> 
+            <span class="tooltiptext"> 
+                Token:  when
+                Activation: 0.0000 
+            </span>
+        </div><br><h3>  Subsample Interval 6 </h3> 
+    <h3>  Max Activation = 0.1222 </h3>
+    
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;article </span> 
+            <span class="tooltiptext"> 
+                Token:  article
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;Move </span> 
+            <span class="tooltiptext"> 
+                Token:  Move
+                Activation: 0.0514 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;to </span> 
+            <span class="tooltiptext"> 
+                Token:  to
+                Activation: 0.0002 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.1222 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;self </span> 
+            <span class="tooltiptext"> 
+                Token:  self
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> - </span> 
+            <span class="tooltiptext"> 
+                Token: -
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> host </span> 
+            <span class="tooltiptext"> 
+                Token: host
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ed </span> 
+            <span class="tooltiptext"> 
+                Token: ed
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;to </span> 
+            <span class="tooltiptext"> 
+                Token:  to
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;think </span> 
+            <span class="tooltiptext"> 
+                Token:  think
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;those </span> 
+            <span class="tooltiptext"> 
+                Token:  those
+                Activation: 0.2135 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;words </span> 
+            <span class="tooltiptext"> 
+                Token:  words
+                Activation: 0.1842 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;also </span> 
+            <span class="tooltiptext"> 
+                Token:  also
+                Activation: 0.1172 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;apply </span> 
+            <span class="tooltiptext"> 
+                Token:  apply
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;to </span> 
+            <span class="tooltiptext"> 
+                Token:  to
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Lancaster </span> 
+            <span class="tooltiptext"> 
+                Token:  Lancaster
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;County </span> 
+            <span class="tooltiptext"> 
+                Token:  County
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Day </span> 
+            <span class="tooltiptext"> 
+                Token:  Day
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;1 </span> 
+            <span class="tooltiptext"> 
+                Token:  1
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;By </span> 
+            <span class="tooltiptext"> 
+                Token:  By
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;that </span> 
+            <span class="tooltiptext"> 
+                Token:  that
+                Activation: 0.1164 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;I </span> 
+            <span class="tooltiptext"> 
+                Token:  I
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;mean </span> 
+            <span class="tooltiptext"> 
+                Token:  mean
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> , </span> 
+            <span class="tooltiptext"> 
+                Token: ,
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;they </span> 
+            <span class="tooltiptext"> 
+                Token:  they
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;is </span> 
+            <span class="tooltiptext"> 
+                Token:  is
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;there </span> 
+            <span class="tooltiptext"> 
+                Token:  there
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;is </span> 
+            <span class="tooltiptext"> 
+                Token:  is
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;no </span> 
+            <span class="tooltiptext"> 
+                Token:  no
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;way </span> 
+            <span class="tooltiptext"> 
+                Token:  way
+                Activation: 0.1098 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;to </span> 
+            <span class="tooltiptext"> 
+                Token:  to
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;poll </span> 
+            <span class="tooltiptext"> 
+                Token:  poll
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> () </span> 
+            <span class="tooltiptext"> 
+                Token: ()
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> 2 </span> 
+            <span class="tooltiptext"> 
+                Token: 2
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;x </span> 
+            <span class="tooltiptext"> 
+                Token:  x
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;CD </span> 
+            <span class="tooltiptext"> 
+                Token:  CD
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;case </span> 
+            <span class="tooltiptext"> 
+                Token:  case
+                Activation: 0.1086 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;bound </span> 
+            <span class="tooltiptext"> 
+                Token:  bound
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;book </span> 
+            <span class="tooltiptext"> 
+                Token:  book
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;including </span> 
+            <span class="tooltiptext"> 
+                Token:  including
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.0000 
+            </span>
+        </div><br><h3>  Subsample Interval 7 </h3> 
+    <h3>  Max Activation = 0.0899 </h3>
+    
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> An </span> 
+            <span class="tooltiptext"> 
+                Token: An
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;alright </span> 
+            <span class="tooltiptext"> 
+                Token:  alright
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;match </span> 
+            <span class="tooltiptext"> 
+                Token:  match
+                Activation: 0.0899 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> , </span> 
+            <span class="tooltiptext"> 
+                Token: ,
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;but </span> 
+            <span class="tooltiptext"> 
+                Token:  but
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;it </span> 
+            <span class="tooltiptext"> 
+                Token:  it
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;was </span> 
+            <span class="tooltiptext"> 
+                Token:  was
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> Run </span> 
+            <span class="tooltiptext"> 
+                Token: Run
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ners </span> 
+            <span class="tooltiptext"> 
+                Token: ners
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> - </span> 
+            <span class="tooltiptext"> 
+                Token: -
+                Activation: 0.0875 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> up </span> 
+            <span class="tooltiptext"> 
+                Token: up
+                Activation: 0.1836 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> : </span> 
+            <span class="tooltiptext"> 
+                Token: :
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Joel </span> 
+            <span class="tooltiptext"> 
+                Token:  Joel
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Emb </span> 
+            <span class="tooltiptext"> 
+                Token:  Emb
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;market </span> 
+            <span class="tooltiptext"> 
+                Token:  market
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Your </span> 
+            <span class="tooltiptext"> 
+                Token:  Your
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;pledges </span> 
+            <span class="tooltiptext"> 
+                Token:  pledges
+                Activation: 0.0839 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;will </span> 
+            <span class="tooltiptext"> 
+                Token:  will
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;bring </span> 
+            <span class="tooltiptext"> 
+                Token:  bring
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;B </span> 
+            <span class="tooltiptext"> 
+                Token:  B
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> BOX </span> 
+            <span class="tooltiptext"> 
+                Token: BOX
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> van </span> 
+            <span class="tooltiptext"> 
+                Token: van
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> : </span> 
+            <span class="tooltiptext"> 
+                Token: :
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> Your </span> 
+            <span class="tooltiptext"> 
+                Token: Your
+                Activation: 0.0811 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;time </span> 
+            <span class="tooltiptext"> 
+                Token:  time
+                Activation: 0.6458 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;is </span> 
+            <span class="tooltiptext"> 
+                Token:  is
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;up </span> 
+            <span class="tooltiptext"> 
+                Token:  up
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> ?! </span> 
+            <span class="tooltiptext"> 
+                Token: ?!
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;There </span> 
+            <span class="tooltiptext"> 
+                Token:  There
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> � </span> 
+            <span class="tooltiptext"> 
+                Token: �
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> � </span> 
+            <span class="tooltiptext"> 
+                Token: �
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> s </span> 
+            <span class="tooltiptext"> 
+                Token: s
+                Activation: 0.0778 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;no </span> 
+            <span class="tooltiptext"> 
+                Token:  no
+                Activation: 0.2583 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;market </span> 
+            <span class="tooltiptext"> 
+                Token:  market
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;for </span> 
+            <span class="tooltiptext"> 
+                Token:  for
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;comic </span> 
+            <span class="tooltiptext"> 
+                Token:  comic
+                Activation: 0.0000 
+            </span>
+        </div><br><h3>  Subsample Interval 8 </h3> 
+    <h3>  Max Activation = 0.0714 </h3>
+    
+        <div class="tooltip"> 
+            <span class="white-color"> : </span> 
+            <span class="tooltiptext"> 
+                Token: :
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;TW </span> 
+            <span class="tooltiptext"> 
+                Token:  TW
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> C </span> 
+            <span class="tooltiptext"> 
+                Token: C
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;should </span> 
+            <span class="tooltiptext"> 
+                Token:  should
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;be </span> 
+            <span class="tooltiptext"> 
+                Token:  be
+                Activation: 0.0714 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;really </span> 
+            <span class="tooltiptext"> 
+                Token:  really
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;comfortable </span> 
+            <span class="tooltiptext"> 
+                Token:  comfortable
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;with </span> 
+            <span class="tooltiptext"> 
+                Token:  with
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;losing </span> 
+            <span class="tooltiptext"> 
+                Token:  losing
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Were </span> 
+            <span class="tooltiptext"> 
+                Token:  Were
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Here </span> 
+            <span class="tooltiptext"> 
+                Token:  Here
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;reveals </span> 
+            <span class="tooltiptext"> 
+                Token:  reveals
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;number </span> 
+            <span class="tooltiptext"> 
+                Token:  number
+                Activation: 0.0705 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;of </span> 
+            <span class="tooltiptext"> 
+                Token:  of
+                Activation: 0.0681 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;similarities </span> 
+            <span class="tooltiptext"> 
+                Token:  similarities
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;to </span> 
+            <span class="tooltiptext"> 
+                Token:  to
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Great </span> 
+            <span class="tooltiptext"> 
+                Token:  Great
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> Get </span> 
+            <span class="tooltiptext"> 
+                Token: Get
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;our </span> 
+            <span class="tooltiptext"> 
+                Token:  our
+                Activation: 0.0302 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;daily </span> 
+            <span class="tooltiptext"> 
+                Token:  daily
+                Activation: 0.0665 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;newsletter </span> 
+            <span class="tooltiptext"> 
+                Token:  newsletter
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Upgrade </span> 
+            <span class="tooltiptext"> 
+                Token:  Upgrade
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;your </span> 
+            <span class="tooltiptext"> 
+                Token:  your
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;inbox </span> 
+            <span class="tooltiptext"> 
+                Token:  inbox
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> bon </span> 
+            <span class="tooltiptext"> 
+                Token: bon
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;volumes </span> 
+            <span class="tooltiptext"> 
+                Token:  volumes
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Parts </span> 
+            <span class="tooltiptext"> 
+                Token:  Parts
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;of </span> 
+            <span class="tooltiptext"> 
+                Token:  of
+                Activation: 0.0654 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;story </span> 
+            <span class="tooltiptext"> 
+                Token:  story
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;were </span> 
+            <span class="tooltiptext"> 
+                Token:  were
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;adapted </span> 
+            <span class="tooltiptext"> 
+                Token:  adapted
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;Your </span> 
+            <span class="tooltiptext"> 
+                Token:  Your
+                Activation: 0.3286 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Gar </span> 
+            <span class="tooltiptext"> 
+                Token:  Gar
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> bage </span> 
+            <span class="tooltiptext"> 
+                Token: bage
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.1457 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0635 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> San </span> 
+            <span class="tooltiptext"> 
+                Token: San
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> itation </span> 
+            <span class="tooltiptext"> 
+                Token: itation
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;workers </span> 
+            <span class="tooltiptext"> 
+                Token:  workers
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;will </span> 
+            <span class="tooltiptext"> 
+                Token:  will
+                Activation: 0.0000 
+            </span>
+        </div><br><h3>  Subsample Interval 9 </h3> 
+    <h3>  Max Activation = 0.0493 </h3>
+    
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Is </span> 
+            <span class="tooltiptext"> 
+                Token:  Is
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;that </span> 
+            <span class="tooltiptext"> 
+                Token:  that
+                Activation: 0.4474 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;only </span> 
+            <span class="tooltiptext"> 
+                Token:  only
+                Activation: 0.0493 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;way </span> 
+            <span class="tooltiptext"> 
+                Token:  way
+                Activation: 0.1082 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;he </span> 
+            <span class="tooltiptext"> 
+                Token:  he
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;touched </span> 
+            <span class="tooltiptext"> 
+                Token:  touched
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;you </span> 
+            <span class="tooltiptext"> 
+                Token:  you
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> up </span> 
+            <span class="tooltiptext"> 
+                Token: up
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;form </span> 
+            <span class="tooltiptext"> 
+                Token:  form
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Required </span> 
+            <span class="tooltiptext"> 
+                Token:  Required
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;fields </span> 
+            <span class="tooltiptext"> 
+                Token:  fields
+                Activation: 0.0485 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;have </span> 
+            <span class="tooltiptext"> 
+                Token:  have
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;the </span> 
+            <span class="tooltiptext"> 
+                Token:  the
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;class </span> 
+            <span class="tooltiptext"> 
+                Token:  class
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;required </span> 
+            <span class="tooltiptext"> 
+                Token:  required
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> : </span> 
+            <span class="tooltiptext"> 
+                Token: :
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;one </span> 
+            <span class="tooltiptext"> 
+                Token:  one
+                Activation: 0.3419 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;week </span> 
+            <span class="tooltiptext"> 
+                Token:  week
+                Activation: 0.5591 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;Too </span> 
+            <span class="tooltiptext"> 
+                Token:  Too
+                Activation: 0.0484 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;soon </span> 
+            <span class="tooltiptext"> 
+                Token:  soon
+                Activation: 0.8864 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Think </span> 
+            <span class="tooltiptext"> 
+                Token:  Think
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> : </span> 
+            <span class="tooltiptext"> 
+                Token: :
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;like </span> 
+            <span class="tooltiptext"> 
+                Token:  like
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;La </span> 
+            <span class="tooltiptext"> 
+                Token:  La
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Bombs </span> 
+            <span class="tooltiptext"> 
+                Token:  Bombs
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;work </span> 
+            <span class="tooltiptext"> 
+                Token:  work
+                Activation: 0.0639 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;best </span> 
+            <span class="tooltiptext"> 
+                Token:  best
+                Activation: 0.0404 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;– </span> 
+            <span class="tooltiptext"> 
+                Token:  –
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;don </span> 
+            <span class="tooltiptext"> 
+                Token:  don
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> � </span> 
+            <span class="tooltiptext"> 
+                Token: �
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> � </span> 
+            <span class="tooltiptext"> 
+                Token: �
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> ame </span> 
+            <span class="tooltiptext"> 
+                Token: ame
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Fac </span> 
+            <span class="tooltiptext"> 
+                Token:  Fac
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> iane </span> 
+            <span class="tooltiptext"> 
+                Token: iane
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;rent </span> 
+            <span class="tooltiptext"> 
+                Token:  rent
+                Activation: 0.0056 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.0394 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;two </span> 
+            <span class="tooltiptext"> 
+                Token:  two
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> - </span> 
+            <span class="tooltiptext"> 
+                Token: -
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> bedroom </span> 
+            <span class="tooltiptext"> 
+                Token: bedroom
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;in </span> 
+            <span class="tooltiptext"> 
+                Token:  in
+                Activation: 0.0000 
+            </span>
+        </div><br><h3>  Subsample Interval 10 </h3> 
+    <h3>  Max Activation = 0.0304 </h3>
+    
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;questions </span> 
+            <span class="tooltiptext"> 
+                Token:  questions
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;arise </span> 
+            <span class="tooltiptext"> 
+                Token:  arise
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Has </span> 
+            <span class="tooltiptext"> 
+                Token:  Has
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;God </span> 
+            <span class="tooltiptext"> 
+                Token:  God
+                Activation: 0.0304 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;given </span> 
+            <span class="tooltiptext"> 
+                Token:  given
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;up </span> 
+            <span class="tooltiptext"> 
+                Token:  up
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;on </span> 
+            <span class="tooltiptext"> 
+                Token:  on
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;me </span> 
+            <span class="tooltiptext"> 
+                Token:  me
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;( </span> 
+            <span class="tooltiptext"> 
+                Token:  (
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> there </span> 
+            <span class="tooltiptext"> 
+                Token: there
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;was </span> 
+            <span class="tooltiptext"> 
+                Token:  was
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;no </span> 
+            <span class="tooltiptext"> 
+                Token:  no
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;way </span> 
+            <span class="tooltiptext"> 
+                Token:  way
+                Activation: 0.0242 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;he </span> 
+            <span class="tooltiptext"> 
+                Token:  he
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;could </span> 
+            <span class="tooltiptext"> 
+                Token:  could
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;draw </span> 
+            <span class="tooltiptext"> 
+                Token:  draw
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;all </span> 
+            <span class="tooltiptext"> 
+                Token:  all
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Sky </span> 
+            <span class="tooltiptext"> 
+                Token:  Sky
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;for </span> 
+            <span class="tooltiptext"> 
+                Token:  for
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Everyone </span> 
+            <span class="tooltiptext"> 
+                Token:  Everyone
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;This </span> 
+            <span class="tooltiptext"> 
+                Token:  This
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;is </span> 
+            <span class="tooltiptext"> 
+                Token:  is
+                Activation: 0.0232 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;a </span> 
+            <span class="tooltiptext"> 
+                Token:  a
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;very </span> 
+            <span class="tooltiptext"> 
+                Token:  very
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;visually </span> 
+            <span class="tooltiptext"> 
+                Token:  visually
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;attractive </span> 
+            <span class="tooltiptext"> 
+                Token:  attractive
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;just </span> 
+            <span class="tooltiptext"> 
+                Token:  just
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;stop </span> 
+            <span class="tooltiptext"> 
+                Token:  stop
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;crying </span> 
+            <span class="tooltiptext"> 
+                Token:  crying
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;Super </span> 
+            <span class="tooltiptext"> 
+                Token:  Super
+                Activation: 0.0222 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;supportive </span> 
+            <span class="tooltiptext"> 
+                Token:  supportive
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> , </span> 
+            <span class="tooltiptext"> 
+                Token: ,
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;right </span> 
+            <span class="tooltiptext"> 
+                Token:  right
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ? </span> 
+            <span class="tooltiptext"> 
+                Token: ?
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;describing </span> 
+            <span class="tooltiptext"> 
+                Token:  describing
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Let </span> 
+            <span class="tooltiptext"> 
+                Token:  Let
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> � </span> 
+            <span class="tooltiptext"> 
+                Token: �
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> � </span> 
+            <span class="tooltiptext"> 
+                Token: �
+                Activation: 0.0167 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> s </span> 
+            <span class="tooltiptext"> 
+                Token: s
+                Activation: 0.1221 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;be </span> 
+            <span class="tooltiptext"> 
+                Token:  be
+                Activation: 0.5332 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;as </span> 
+            <span class="tooltiptext"> 
+                Token:  as
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;naïve </span> 
+            <span class="tooltiptext"> 
+                Token:  naïve
+                Activation: 0.0000 
+            </span>
+        </div><br><h3> Bottom Activations </h3>
+    <h3>  Max Activation = 0.0134 </h3>
+    
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;252 </span> 
+            <span class="tooltiptext"> 
+                Token:  252
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> Why </span> 
+            <span class="tooltiptext"> 
+                Token: Why
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;so </span> 
+            <span class="tooltiptext"> 
+                Token:  so
+                Activation: 0.0134 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;accurate </span> 
+            <span class="tooltiptext"> 
+                Token:  accurate
+                Activation: 0.3436 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ? </span> 
+            <span class="tooltiptext"> 
+                Token: ?
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;SC </span> 
+            <span class="tooltiptext"> 
+                Token:  SC
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ORE </span> 
+            <span class="tooltiptext"> 
+                Token: ORE
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> . </span> 
+            <span class="tooltiptext"> 
+                Token: .
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;� </span> 
+            <span class="tooltiptext"> 
+                Token:  �
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> � </span> 
+            <span class="tooltiptext"> 
+                Token: �
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> Please </span> 
+            <span class="tooltiptext"> 
+                Token: Please
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;try </span> 
+            <span class="tooltiptext"> 
+                Token:  try
+                Activation: 0.0125 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;to </span> 
+            <span class="tooltiptext"> 
+                Token:  to
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;let </span> 
+            <span class="tooltiptext"> 
+                Token:  let
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;your </span> 
+            <span class="tooltiptext"> 
+                Token:  your
+                Activation: 0.2113 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;high </span> 
+            <span class="tooltiptext"> 
+                Token:  high
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;and </span> 
+            <span class="tooltiptext"> 
+                Token:  and
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Save </span> 
+            <span class="tooltiptext"> 
+                Token:  Save
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Get </span> 
+            <span class="tooltiptext"> 
+                Token:  Get
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;six </span> 
+            <span class="tooltiptext"> 
+                Token:  six
+                Activation: 0.2889 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;months </span> 
+            <span class="tooltiptext"> 
+                Token:  months
+                Activation: 0.0124 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;of </span> 
+            <span class="tooltiptext"> 
+                Token:  of
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;free </span> 
+            <span class="tooltiptext"> 
+                Token:  free
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;digital </span> 
+            <span class="tooltiptext"> 
+                Token:  digital
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;access </span> 
+            <span class="tooltiptext"> 
+                Token:  access
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> <span&nbsp;style="font-weight:&nbsp;normal;">&#x23CE;</span> </span> 
+            <span class="tooltiptext"> 
+                Token: <span style="font-weight: normal;">&#x23CE;</span>
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> Property </span> 
+            <span class="tooltiptext"> 
+                Token: Property
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;get </span> 
+            <span class="tooltiptext"> 
+                Token:  get
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> ters </span> 
+            <span class="tooltiptext"> 
+                Token: ters
+                Activation: 0.0087 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;should </span> 
+            <span class="tooltiptext"> 
+                Token:  should
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;always </span> 
+            <span class="tooltiptext"> 
+                Token:  always
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;succeed </span> 
+            <span class="tooltiptext"> 
+                Token:  succeed
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> ; </span> 
+            <span class="tooltiptext"> 
+                Token: ;
+                Activation: 0.0000 
+            </span>
+        </div><br>
+        <div class="tooltip"> 
+            <span class="white-color"> 13 </span> 
+            <span class="tooltiptext"> 
+                Token: 13
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Is </span> 
+            <span class="tooltiptext"> 
+                Token:  Is
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Our </span> 
+            <span class="tooltiptext"> 
+                Token:  Our
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Lucky </span> 
+            <span class="tooltiptext"> 
+                Token:  Lucky
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="default-color"> &nbsp;Number </span> 
+            <span class="tooltiptext"> 
+                Token:  Number
+                Activation: 0.0007 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;The </span> 
+            <span class="tooltiptext"> 
+                Token:  The
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;Packers </span> 
+            <span class="tooltiptext"> 
+                Token:  Packers
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;have </span> 
+            <span class="tooltiptext"> 
+                Token:  have
+                Activation: 0.0000 
+            </span>
+        </div>
+        <div class="tooltip"> 
+            <span class="white-color"> &nbsp;won </span> 
+            <span class="tooltiptext"> 
+                Token:  won
+                Activation: 0.0000 
+            </span>
+        </div><br></body> </html>
